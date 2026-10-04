@@ -1,6 +1,6 @@
 # ❤️ CardioAI - Hệ Thống Trí Tuệ Nhân Tạo Dự Báo & Hỗ Trợ Chẩn Đoán Bệnh Tim Mạch
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=duynguyennd/CardioAI-Heart-Disease-Prediction&branch=main&mainModule=app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=20233327-ux/tr-tu-nh-n-t-o-&branch=main&mainModule=app.py)
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3%2B-orange.svg)](https://scikit-learn.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-2.0%2B-red.svg)](https://xgboost.ai/)
