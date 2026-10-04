@@ -1,0 +1,38 @@
+======================================================================
+BÁO CÁO TỔNG KẾT - HỆ THỐNG PHÂN LOẠI BỆNH TIM
+======================================================================
+
+1. THÔNG TIN DỮ LIỆU
+   Dataset: UCI Heart Disease (Cleveland)
+   Tổng mẫu: 303
+   Số đặc trưng: 13
+   Tỷ lệ bệnh: 45.9%
+
+2. KẾT QUẢ SO SÁNH MÔ HÌNH
+
+                      Accuracy  Precision    Recall  F1-Score   AUC-ROC
+Logistic Regression   0.885246   0.838710  0.928571  0.881356  0.953463
+Random Forest         0.918033   0.896552  0.928571  0.912281  0.964286
+XGBoost               0.885246   0.862069  0.892857  0.877193  0.939394
+SVM                   0.836066   0.800000  0.857143  0.827586  0.933983
+KNN                   0.819672   0.793103  0.821429  0.807018  0.920455
+Neural Network (MLP)  0.770492   0.705882  0.857143  0.774194  0.910173
+
+3. XẾP HẠNG TỔNG HỢP
+
+   #1: Random Forest (Score: 0.9239)
+   #2: Logistic Regression (Score: 0.8975)
+   #3: XGBoost (Score: 0.8914)
+   #4: SVM (Score: 0.8510)
+   #5: KNN (Score: 0.8323)
+   #6: Neural Network (MLP) (Score: 0.8036)
+
+4. ĐỀ XUẤT
+
+   Mô hình tốt nhất tổng hợp: Random Forest
+   Mô hình tốt nhất Accuracy: Random Forest
+   Mô hình tốt nhất Recall: Logistic Regression
+   Mô hình tốt nhất F1-Score: Random Forest
+   Mô hình tốt nhất AUC-ROC: Random Forest
+
+   💡 Trong y tế, Recall quan trọng nhất để không bỏ sót bệnh nhân.
